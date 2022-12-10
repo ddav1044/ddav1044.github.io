@@ -1,0 +1,121 @@
+  <!--   
+*****************************************************************************
+Title: Dan's Gaming Repair
+Use: To allow users to fill out and submit the contact form.
+Author: Daniel Davison
+School/Term: Southern Illinois University, Fall 2022
+Developed: Nov 28, 2022
+Tested: Dec 3, 2022 Passed on Chrome browser. 
+*****************************************************************************
+  -->
+  
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+        
+        <meta charset="utf-8">
+        <meta name="description" content="Gaming Repair for Computer and Gaming consules">
+        <meta name="keywords" content = "Dan's, Gaming, Repair, Computer, Console, Playstation, XBOX">
+        <meta name= "viewport"  content="width=device-width, initial-scale=l"> 
+        <title>Dan's Gaming Repair</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <link rel="stylesheet" type="text/css" href="./slicknav.css">
+        <link rel="shortcut icon" href ="./gameicon.jpg">                   <!--favicon-->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" ></script>
+        <script src="./jquery.slicknav.min.js"></script>
+        <script type="text/javascript"> 
+      
+          $(document).ready(function(){
+     $ ( '#nav_menu'). slicknav( {prependTo: "#mobile_menu"});
+} ) ;
+</script> 
+      
+        
+        
+
+</head>       
+<!--Header Information-->
+<header>
+  <nav id="mobile_menu">
+    
+  </nav>
+  <nav id="nav_menu">
+    <ul>
+    <li><a href="index.htm">Home</a></li>
+    <li><a href="psxbox.htm">PS/XBOX</a></li>
+    <li><a href="pc.htm">PC</a></li>
+    <li><a href="contact.htm">Contact</a></li>
+
+    </ul></nav>
+
+</header>
+    <body>
+       
+        <h1>Dan's Gaming Repair </h1>
+      
+        <section>
+         <img id="red_border" >
+         <figcaption>PC and Console Repair</figcaption> 
+        </section>
+        <br /><br />
+<!--Main Content-->      
+    <h2>A gaming website that can aid in repairing and troubleshooting gaming computers and 
+      gaming consoles. 
+    </h2>
+
+<h3>Types of repairs and what we can help with:</h3>
+<ul>
+ <li>Intel and Ryzen cpu gaming computers</li>
+ <li>Windows and Mac</li>
+ <li>All Playstation Consoles</li>
+ <li>All XBOX Consoles</li>
+ <li>Replacement Parts</li>
+ <li>Troubleshooting Problems</li>
+ <li>Over the phone troubleshooting</li>
+  </ul>
+
+<br /><br />
+<h3>Time Frame</h3>
+  <p>Depending on the condition of your gaming consoles or pc will determine the amount of time it</p>
+  <p>will take in order to repair and deliver your system. The time it will take will consist of </p>
+  <p>repair time, whether we have the spare hardware is in stock or have to order, and shipping.</p>
+
+<br /><br />
+
+<h3>Price Breakdown</h3>
+
+<ul>
+<li>Time spent repairing (not shipping or ordering of hardware)</li>
+<li>What needs repaired</li>  
+<li>Hardware or software needed to repair</li>
+</ul>
+
+<br /><br />  
+
+<form action="chat.php" method="post">
+<p class="first">Enter email and talk with one of our repair specialists via E-mail to get you started on repairing your system!</p>
+<p class="first field">E-Mail:
+  <input type="text" name="email" id="email"
+  title="Enter e-mail."></p>
+  <p><input type="submit" value="Start Chatting"></p>
+  
+
+
+<!--Footer Information-->
+
+<footer>
+
+  <address>
+  <p>Products are ordered and kept in stock from  <a href ="https://www.newegg.com/"> Newegg</a>.</p>
+    
+  </address>
+  
+  <p>Address: 123 Gamer's Street, Carbondale 62959</p>
+  <p>Phone Number: 555-555-6677</p>
+
+</footer>
+
+ </body>  
+ 
+
+</html>
